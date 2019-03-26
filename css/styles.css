@@ -1,7 +1,32 @@
 .hide {
   display: none;
 }
+.container {
+  padding: 0px;
+}
+.col-sm-3 {
+  padding: 0px;
+}
+.jumbotron {
+  width: fill;
+  height: fill;
+  padding: 0px;
+}
 
-.clickable {
+.jumbotron p {
+  margin: 0px;
+}
+
+.jumbotron:hover {
+  opacity: .7;
+}
+
+.clickable1 p, .clickable2 p{
+  margin-bottom: 0px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding: 0px;
+    margin-bottom: 0px;
 
 }
